@@ -1,0 +1,29 @@
+{
+  "name": "@bvrcode/ts-react-library-template",
+  "version": "1.0.0",
+  "description": "Template to create Typescript + React libraries.",
+  "main": "dist/main.js",
+  "scripts": {
+    "cleanup": "rimraf dist",
+    "prestart": "npm run cleanup",
+    "start": "tsc -w",
+    "prebuild": "npm run cleanup",
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "typescript",
+    "masks"
+  ],
+  "author": "Benjamin VR",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "17.x",
+    "rimraf": "3.x",
+    "typescript": "4.x"
+  },
+  "peerDependencies": {
+    "react": "16.8.x || 17.x"
+  }
+}
