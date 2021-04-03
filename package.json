@@ -26,5 +26,8 @@
   },
   "peerDependencies": {
     "react": "16.8.x || 17.x"
-  }
+  },
+  "files": [
+    "/dist"
+  ]
 }
