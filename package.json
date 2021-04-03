@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Template to create Typescript + React libraries.",
   "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "cleanup": "rimraf dist",
     "prestart": "npm run cleanup",
