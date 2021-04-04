@@ -9,7 +9,8 @@
     "prestart": "npm run cleanup",
     "start": "tsc -w",
     "prebuild": "npm run cleanup",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "keywords": [
     "react",
@@ -20,7 +21,13 @@
   "author": "Benjamin VR",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "7.x",
+    "@babel/preset-env": "7.x",
+    "@babel/preset-typescript": "7.x",
+    "@types/jest": "26.x",
     "@types/react": "17.x",
+    "babel-jest": "26.x",
+    "jest": "26.x",
     "rimraf": "3.x",
     "typescript": "4.x"
   },
